@@ -61,16 +61,15 @@ main {
 }
 
 .brand-mark {
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  display: grid;
-  place-items: center;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #0b1020;
+  border: 1px solid rgba(92, 180, 255, 0.4);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 8px;
   box-shadow: 0 10px 40px rgba(92, 180, 255, 0.25);
+  display: block;
+  object-fit: contain;
 }
 
 .brand-label {
