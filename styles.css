@@ -476,6 +476,101 @@ textarea:focus {
   font-weight: 700;
 }
 
+.about-teaser {
+  background: radial-gradient(circle at 20% 20%, rgba(138, 198, 255, 0.08), transparent 40%),
+    radial-gradient(circle at 80% 0%, rgba(111, 139, 255, 0.08), transparent 35%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.coach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.coach-card {
+  padding: 1.25rem;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  display: grid;
+  gap: 0.6rem;
+}
+
+.coach-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.coach-meta .card-copy {
+  margin: 0.15rem 0 0;
+}
+
+.coach-card .body {
+  color: var(--muted);
+}
+
+.bio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.25rem;
+}
+
+.bio-card {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: var(--shadow);
+}
+
+.bio-media {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+  background: linear-gradient(180deg, rgba(138, 198, 255, 0.2), rgba(7, 9, 15, 0.9));
+}
+
+.bio-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.badge {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background: rgba(7, 9, 15, 0.75);
+  border: 1px solid rgba(138, 198, 255, 0.45);
+  color: var(--text);
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.bio-content {
+  padding: 1.5rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.bio-content h3 {
+  margin: 0;
+}
+
+.bio-content .body {
+  color: var(--muted);
+}
+
 @media (max-width: 720px) {
   .header-inner {
     flex-direction: column;
