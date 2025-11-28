@@ -1,42 +1,45 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blueprint | Commitment Meets Results</title>
+  <title>Blueprint | Elite Prep Coaching</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="cursor-glow" aria-hidden="true"></div>
   <header class="site-header">
-    <div class="brand">
-      <img src="logo.png" alt="Blueprint logo" class="brand-mark">
-      <div>
-        <p class="brand-label">Blueprint</p>
-        <span class="brand-sub">Where Commitment Meets Results</span>
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-mark">BP</div>
+        <div>
+          <p class="brand-label">Blueprint</p>
+          <span class="brand-sub">Commitment meets results</span>
+        </div>
       </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="mission.html">Mission</a>
+        <a href="manifesto.html">Manifesto</a>
+        <a href="edge.html">Edge</a>
+        <a href="offer.html">Offer</a>
+        <a class="btn ghost" href="contact.html">Apply</a>
+      </nav>
     </div>
-    <nav class="nav">
-      <a href="#mission">Mission</a>
-      <a href="#manifesto">Manifesto</a>
-      <a href="#offer">Offer</a>
-      <a href="#edge">Our Edge</a>
-      <a href="#contact" class="btn ghost">Apply</a>
-    </nav>
   </header>
 
-  <main>
+  <main class="page">
     <section class="hero">
       <div class="hero-content">
-        <p class="eyebrow">Elite Prep Coaching</p>
-        <h1>Blueprint is the training high school runners use to become college ready.</h1>
-        <p class="lead">Built by current Division I runners who lived the process themselves. We went from average high-school kids to D1 runners at the University of Iowa. We give committed athletes the training, mindset, and mentoring that turn effort into results.</p>
+        <p class="eyebrow">Elite prep coaching</p>
+        <h1>Blueprint is how driven high school runners become college ready.</h1>
+        <p class="lead">Built by current Division I athletes who lived the process. We turn your effort into results with disciplined training, recruiting insight, and mentorship that feels intentional and sleek.</p>
         <div class="hero-actions">
-          <a class="btn" href="#contact">Apply</a>
-          <a class="btn ghost" href="#offer">See the full offer</a>
+          <a class="btn" href="contact.html">Start application</a>
+          <a class="btn ghost" href="offer.html">See the offer</a>
         </div>
         <div class="pill-row">
           <span class="pill">Commitment</span>
@@ -46,11 +49,11 @@
         </div>
       </div>
       <div class="hero-card">
-        <p class="eyebrow">Proof of Process</p>
+        <p class="eyebrow">Proof of process</p>
         <h3>Earned. Not hyped.</h3>
         <ul class="list">
           <li>D1 roster spots earned through consistent structure</li>
-          <li>Training guided by our experience</li>
+          <li>Training guided by our lived experience</li>
           <li>Recruiting insight from athletes who know how coaches think</li>
         </ul>
         <div class="stat-grid">
@@ -60,7 +63,7 @@
           </div>
           <div class="stat">
             <span class="stat-number">100%</span>
-            <p class="stat-label">Personalized plans. No mass workout dumps. </p>
+            <p class="stat-label">Personalized plans</p>
           </div>
           <div class="stat">
             <span class="stat-number">Weekly</span>
@@ -70,178 +73,61 @@
       </div>
     </section>
 
-    <section id="mission" class="section">
+    <section class="section">
       <div class="section-heading">
-        <p class="eyebrow">Mission Statement</p>
-        <h2>Where Commitment Meets Results</h2>
-        <p class="body">We give committed high school athletes every resource they need to take their running to the next level.</p>
+        <p class="eyebrow">Explore Blueprint</p>
+        <h2>Each piece gets its own sleek, focused page.</h2>
+        <p class="body">Navigate like a product tour. Every section has room to breathe so athletes and parents can focus on what matters.</p>
       </div>
-      <div class="card-grid">
-        <article class="card">
-          <p class="card-title">Physical</p>
-          <p class="card-copy">Complete personalized training plan that includes: run workouts, strength plan, plyometrics, and mobility.</p>
-        </article>
-        <article class="card">
-          <p class="card-title">Mental</p>
-          <p class="card-copy">Race planning, mindset frameworks, and weekly check-ins so athletes compete with confidence.</p>
-        </article>
-        <article class="card">
-          <p class="card-title">Competitive</p>
-          <p class="card-copy">Recruiting mentorship that explains how coaches think, when to reach out, and how to stand out for the right reasons.</p>
-        </article>
+      <div class="preview-grid">
+        <a class="preview-card" href="mission.html">
+          <p class="card-title">Mission & approach</p>
+          <p class="card-copy">Physical, mental, and competitive systems that lift you from good to elite.</p>
+          <span class="cta-link">View mission →</span>
+        </a>
+        <a class="preview-card" href="manifesto.html">
+          <p class="card-title">Manifesto</p>
+          <p class="card-copy">Direct, disciplined, and earned. The mindset behind Blueprint.</p>
+          <span class="cta-link">Read the manifesto →</span>
+        </a>
+        <a class="preview-card" href="edge.html">
+          <p class="card-title">Our edge</p>
+          <p class="card-copy">Current D1 insight, real recruiting clarity, and disciplined programming.</p>
+          <span class="cta-link">See the edge →</span>
+        </a>
+        <a class="preview-card" href="offer.html">
+          <p class="card-title">The offer</p>
+          <p class="card-copy">Everything included, from daily training to nutrition and recruiting guidance.</p>
+          <span class="cta-link">Open the offer →</span>
+        </a>
       </div>
-    </section>
-
-    <section id="manifesto" class="section alt">
-      <div class="section-heading">
-        <p class="eyebrow">Brand Manifesto</p>
-        <h2>Built from doing the work.</h2>
-        <p class="body">We weren’t standout recruits in high school. We were just guys who cared enough to do the little things right. Over time, that commitment turned into real results: D1 spots, school records, and a deeper understanding of what actually works. Blueprint is everything we wish we’d known earlier - the structure, training, and mindset that takes an athlete from good to elite. It’s not hype or shortcuts. It’s the system we built through years of doing the work.</p>
-      </div>
-      <div class="values">
-        <div>
-          <p class="eyebrow">Tone & Values</p>
-          <ul class="list">
-            <li>Direct. No fluff, no false promises</li>
-            <li>Disciplined. Structure and standards first</li>
-            <li>Earned. Built from lived experience, not theory</li>
-            <li>Selective. We coach athletes who are fully bought in</li>
-          </ul>
-        </div>
-        <div class="quote-card">
-          <p class="quote">“Blueprint helps serious high school runners become college ready athletes. We built the system we wish we’d had. This is coaching for athletes who are all in, and ready to do things right.”</p>
-          <span class="quote-attrib">— Blueprint Coaching</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="serve" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Who We Serve</p>
-        <h2>Athletes and parents who are ready for the next step.</h2>
-      </div>
-      <div class="pillars">
-        <div class="pillar">
-          <h3>Serious high school runners</h3>
-          <p>Competitors who want to race in college and are willing to follow a proven structure.</p>
-        </div>
-        <div class="pillar">
-          <h3>Committed athletes</h3>
-          <p>Driven runners who want more and need mentorship to reach the next level.</p>
-        </div>
-        <div class="pillar">
-          <h3>Parents who invest</h3>
-          <p>Supportive parents who want professional guidance for their athlete’s athletic and personal growth.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="edge" class="section alt">
-      <div class="section-heading">
-        <p class="eyebrow">Our Edge</p>
-        <h2>The difference between guessing and a proven plan.</h2>
-        <p class="body">We combine our current Division I experience with recruiting insight and disciplined training. Every piece is intentional.</p>
-      </div>
-      <div class="card-grid wide">
-        <article class="card">
-          <p class="card-title">Current Division I athletes</p>
-          <p class="card-copy">Coaches who know what it takes right now, not last decade, because we’re living it.</p>
-        </article>
-        <article class="card">
-          <p class="card-title">Real recruiting insight</p>
-          <p class="card-copy">How coaches think, how the system works, and how to communicate so your outreach lands.</p>
-        </article>
-        <article class="card">
-          <p class="card-title">Proven structure</p>
-          <p class="card-copy">No guesswork or cookie-cutter plans, just disciplined programming that stacks small wins.</p>
-        </article>
-        <article class="card">
-          <p class="card-title">Full performance stack</p>
-          <p class="card-copy">Running, lifting, mobility, mindset, and nutrition tips - the tools to perform when it counts.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="offer" class="section">
-      <div class="offer">
-        <div class="offer-header">
-          <p class="eyebrow">The Offer</p>
-          <h2>Elite Prep Coaching</h2>
-          <p class="price">$399 / month</p>
-          <p class="body">Personalized running training through TrainingPeaks, strength program, plyometrics, mobility work, ad nutrition guidance, race planning, recruiting mentorship, weekly check-ins, and parent updates every 2-4 weeks.</p>
-        </div>
-        <div class="offer-details">
-          <h3>What’s included</h3>
-          <ul class="list two-col">
-            <li>Custom daily training</li>
-            <li>Strength, plyometric, and mobility programming</li>
-            <li>Nutrition guidance for training and race day</li>
-            <li>Race planning and execution reviews</li>
-            <li>Weekly athlete check-ins</li>
-            <li>Parent updates every 4–6 weeks</li>
-            <li>Recruiting mentorship and outreach templates</li>
-            <li>Access to our private athlete resource bank</li>
-          </ul>
-          <a class="btn" href="#contact">Start the process</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section alt cta">
-      <div>
-        <p class="eyebrow">Ready to invest in what works?</p>
-        <h2>We coach athletes who are all in.</h2>
-        <p class="body">If you’re serious about competing in college, Blueprint is the structure that gets you there. Tell us about your goals and current training and we’ll see if we’re the right fit.</p>
-      </div>
-      <form
-        class="cta-form"
-        action="https://formspree.io/f/xzzwnakz"
-        method="POST"
-      >
-        <!-- Replace YOUR_FORM_ID above with your actual form ID from your form backend provider -->
-
-        <label>
-          Athlete name
-          <input type="text" name="name" placeholder="Your name" required>
-        </label>
-
-        <label>
-          Email
-          <input type="email" name="email" placeholder="you@example.com" required>
-        </label>
-
-        <label>
-          Goals
-          <textarea
-            name="message"
-            rows="4"
-            placeholder="Tell us about your goals, PRs, and current training load"
-            required
-          ></textarea>
-        </label>
-
-        <!-- Optional: let you see which page the form came from -->
-        <input type="hidden" name="source" value="Blueprint site contact form">
-
-        <!-- Optional: customize email subject in your inbox -->
-        <input type="hidden" name="_subject" value="New Blueprint athlete application">
-
-        <button class="btn" type="submit">Apply</button>
-      </form>
     </section>
   </main>
 
   <footer class="footer">
-    <div>
-      <p class="brand-label">Blueprint</p>
-      <p class="body">Coaching built for committed high-school runners — disciplined, selective, and proven.</p>
-    </div>
-    <div class="footer-links">
-      <a href="#mission">Mission</a>
-      <a href="#edge">Edge</a>
-      <a href="#offer">Offer</a>
-      <a href="#contact">Apply</a>
+    <div class="footer-inner">
+      <div>
+        <p class="brand-label">Blueprint</p>
+        <p class="body">Coaching built for committed runners — disciplined, selective, proven.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mission.html">Mission</a>
+        <a href="edge.html">Edge</a>
+        <a href="offer.html">Offer</a>
+        <a href="contact.html">Apply</a>
+      </div>
     </div>
   </footer>
+
+  <script>
+    const glow = document.querySelector('.cursor-glow');
+    const showGlow = () => glow.style.opacity = '1';
+    const hideGlow = () => glow.style.opacity = '0';
+    document.addEventListener('mousemove', (e) => {
+      glow.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+    });
+    document.addEventListener('mouseenter', showGlow);
+    document.addEventListener('mouseleave', hideGlow);
+  </script>
 </body>
 </html>
