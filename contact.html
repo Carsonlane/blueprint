@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blueprint | Apply</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <img src="logo.PNG" alt="Blueprint logo" class="brand-logo">
+        <div>
+          <p class="brand-label">Blueprint</p>
+          <span class="brand-sub">Commitment meets results</span>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="mission.html">Mission</a>
+        <a href="manifesto.html">Manifesto</a>
+        <a href="edge.html">Edge</a>
+        <a href="offer.html">Offer</a>
+        <a class="btn ghost" href="contact.html">Apply</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="page-hero">
+      <div>
+        <p class="eyebrow">Apply</p>
+        <h1>We coach athletes who are all in.</h1>
+        <p class="lead">If you’re serious about competing in college, Blueprint is the structure that gets you there. Tell us about your goals and current training and we’ll see if we’re the right fit.</p>
+      </div>
+      <div class="glass-card">
+        <p class="card-title">We keep it selective</p>
+        <p class="card-copy">Blueprint is for athletes and families ready to invest in a disciplined plan. The more detail you share, the faster we can help.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="cta">
+        <div>
+          <p class="eyebrow">Ready to invest in what works?</p>
+          <h2>Tell us about your athlete.</h2>
+          <p class="body">We respond personally to every submission. Expect clarity, not spam.</p>
+        </div>
+        <form
+          class="cta-form"
+          action="https://formspree.io/f/xzzwnakz"
+          method="POST"
+        >
+          <label>
+            Athlete name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+
+          <label>
+            Goals
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Tell us about your goals, PRs, and current training load"
+              required
+            ></textarea>
+          </label>
+
+          <input type="hidden" name="source" value="Blueprint site contact form">
+          <input type="hidden" name="_subject" value="New Blueprint athlete application">
+
+          <button class="btn" type="submit">Apply</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <p class="brand-label">Blueprint</p>
+        <p class="body">Coaching built for committed runners — disciplined, selective, proven.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="mission.html">Mission</a>
+        <a href="offer.html">Offer</a>
+        <a href="edge.html">Edge</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
