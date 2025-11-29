@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="cursor-glow" aria-hidden="true"></div>
   <header class="site-header">
     <div class="header-inner">
       <div class="brand">
@@ -155,16 +154,6 @@
       </div>
     </div>
   </footer>
-
-  <script>
-    const glow = document.querySelector('.cursor-glow');
-    const showGlow = () => glow.style.opacity = '1';
-    const hideGlow = () => glow.style.opacity = '0';
-    document.addEventListener('mousemove', (e) => {
-      glow.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-    });
-    document.addEventListener('mouseenter', showGlow);
-    document.addEventListener('mouseleave', hideGlow);
-  </script>
+  <script src="interactive.js"></script>
 </body>
 </html>
