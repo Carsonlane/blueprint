@@ -32,9 +32,9 @@ body {
   inset: -80px;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.75;
+  opacity: 0.6;
   mix-blend-mode: screen;
-  filter: drop-shadow(0 10px 40px rgba(138, 198, 255, 0.15));
+  filter: drop-shadow(0 10px 40px rgba(138, 198, 255, 0.12));
 }
 
 .hex-cell {
@@ -44,8 +44,8 @@ body {
   left: var(--x);
   top: var(--y);
   clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-  background: linear-gradient(135deg, rgba(111, 139, 255, 0.18), rgba(155, 215, 255, 0.28));
-  opacity: 0.12;
+  background: linear-gradient(135deg, rgba(111, 139, 255, 0.14), rgba(155, 215, 255, 0.21));
+  opacity: 0.1;
   transform-origin: center;
   transition: transform 0.6s ease, opacity 0.6s ease, background 0.6s ease;
   animation: idleFloat 12s ease-in-out infinite;
@@ -56,20 +56,20 @@ body {
   position: absolute;
   inset: 20%;
   border-radius: 12px;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.15), transparent 55%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent 55%);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
 
 .hex-cell.is-active {
-  opacity: calc(0.35 + (var(--pulse, 0) * 0.6));
-  background: radial-gradient(circle at 30% 30%, rgba(155, 215, 255, 0.65), rgba(111, 139, 255, 0.45));
+  opacity: calc(0.3 + (var(--pulse, 0) * 0.5));
+  background: radial-gradient(circle at 30% 30%, rgba(155, 215, 255, 0.55), rgba(111, 139, 255, 0.38));
   transform: scale(calc(1 + (var(--pulse, 0) * 0.5))) rotateX(10deg) rotateZ(3deg);
   animation: flipHex 0.9s ease forwards;
 }
 
 .hex-cell.is-active::after {
-  opacity: calc(0.2 + (var(--pulse, 0) * 0.4));
+  opacity: calc(0.16 + (var(--pulse, 0) * 0.3));
 }
 
 @keyframes flipHex {
